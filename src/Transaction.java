@@ -12,5 +12,8 @@ public class Transaction {
         this.price = price;
         this.date = date;
     }
+    public String getTitle(){return title ;}
+    public String getDescription(){return descrition ;}
+    public double getPrice(){return price ;}
 }
 

@@ -118,20 +118,42 @@ public class Interface{
         System.out.println();
         //Print dates of each week
         for (Week week: lifeTime)
-            out.print("------  " + week.getMonday() + "  -----");
+            out.print("          ------  " + week.getMonday() + "  -----");
 
         System.out.println();
         //Print headings
-        System.out.print("Income");
+        System.out.print("          Income");
+        int length = 20 ;
+        for (int i = 0; i < length; i++)
+            out.print(" ");
         System.out.print("Expenditure");
 
         System.out.println();
         //print items
+        double[] totalIncome = new double[lifeTime.size()] ;
+        double[] totalExpenditure = new double[lifeTime.size()] ;
 
+        for (int x = 0; x < lifeTime.size();x++){
+            Week week = lifeTime.get(x) ;
+            for (int number = 0; number < week.getTransactions().size(); number++){
+                Transaction transaction = week.getTransactions().get(number) ;
+                for (int i = 0; i < 10;i++)
+                    out.print(" ");
+                out.print(transaction.getTitle() + "  " + transaction.getDescription()  + "  " + transaction.getPrice() + '\n');
+                totalIncome[x] += transaction.getPrice() ;
+            }
+
+        }
 
         System.out.println();
         //print totals
-        System.out.print("Total");
+        for (int i = 0; i < lifeTime.size();i++) {
+            out.print("Sub Total:");
+            out.print(totalIncome[i]);
+        }
+        out.println();
+
+        System.out.print("Total:");
 
         System.out.println();
         //Display trajectory
@@ -155,18 +177,22 @@ public class Interface{
 
         //week exists
         for (Week week: lifeTime){
-            if (week.getMonday().equals(monday))
-                week.addTransaction(transaction) ;
+            if (week.getMonday().equals(monday)) {
+                week.addTransaction(transaction);
+                lifeTime.add(week) ;
+            }
             else weekCreated++ ;
         }
         //week doesn't exist
         if (weekCreated == lifeTime.size()){
             Week week = new Week(monday) ;
             week.addTransaction(transaction) ;
+            lifeTime.add(week) ;
         }
 
     }
     public static void calcTrajectory(){
+
 
     }
 }
