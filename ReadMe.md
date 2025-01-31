@@ -1,4 +1,5 @@
 # BudgetTracker
+
 Record income and expenditure and display to user.
 Project Goals
 The goal of this project is to work towards an app that will automatically budget your transactions based on your bank activity with as little input(effort) from the user as

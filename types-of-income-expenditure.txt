@@ -1,0 +1,67 @@
+Income
+Regular Income
+
+    Employment
+        Salary
+        Wages
+
+    Investments
+        Dividends (consistent returns)
+
+    Benefits
+        Pensions
+        Government benefits (e.g., unemployment, child support)
+
+    Other Fixed Sources
+        Rental income
+
+Irregular Income
+
+    Performance-based
+        Bonuses
+
+    Gifts & Windfalls
+        Monetary gifts
+        Inheritance
+        Lottery winnings
+
+    Freelance/Contract Work
+        Project-based earnings
+
+    Asset-Related
+        Investment gains
+        Sale of property or items
+
+Expenditure
+Regular Expenditure
+
+    Housing
+        Rent
+        Mortgage payments
+
+    Utilities & Subscriptions
+        Electricity, water, gas
+        Internet, phone, streaming services
+
+    Insurance
+        Health, car, home insurance
+
+    Necessities
+        Groceries
+        Transportation (if consistent)
+
+Irregular Expenditure
+
+    Repairs & Emergencies
+        Home repairs
+        Car repairs
+        Medical expenses
+
+    Leisure & Celebrations
+        Vacations
+        Gifts for occasions (birthdays, weddings)
+
+    Large Purchases
+        Appliances
+        Electronics
+        Furniture
