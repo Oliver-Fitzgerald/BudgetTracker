@@ -1,9 +1,9 @@
-package com.userInterface ;
+package com.CLIInterface ;
 
 import java.util.Scanner ;
 
 //interfaces
-import com.userInterface.AddOrEditTracactionDialog ;
+import com.CLIInterface.AddOrEditTracactionDialog ;
 
 /*
  * This is the entry point for the program and serves as the core of the interface
@@ -22,10 +22,8 @@ public class MyBudget {
     public static void main(String args[]) {
 
 
-
         boolean run = true ;
         while (run) {
-
             System.out.print(horizontalRule) ;
 
             byte response = mainMenu() ;

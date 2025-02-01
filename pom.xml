@@ -32,7 +32,7 @@
             <configuration>
                 <archive>
                     <manifest>
-                        <mainClass>com.userInterface.MyBudget</mainClass>
+                        <mainClass>com.CLIInterface.MyBudget</mainClass>
                     </manifest>
                 </archive>
             </configuration>
